@@ -254,6 +254,8 @@ blockquote {
 }
 
 #services .media:hover .fa-md {}
+#skills .media:hover .fa-md {}
+
 
 #recent-works {
     padding: 90px 0;
