@@ -124,6 +124,20 @@ blockquote {
     text-transform: uppercase;
 }
 
+ .column {
+  float: left;
+  width: 50%;
+  padding: 15px;	
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 
@@ -134,7 +148,7 @@ blockquote {
 #main-slider {
     position: relative;
     z-index: 5;
-    color: #fff;
+    color: #fff;	
 }
 
 #main-slider .carousel-inner {
@@ -1048,7 +1062,7 @@ ul.tag-cloud li {
 
 .service-block .media-heading {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .section-heading hr {
