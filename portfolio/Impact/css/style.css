@@ -17,6 +17,7 @@
     clear: both;
 }
 
+
 .hide-text {
     font: 0/0 a;
     color: transparent;
@@ -239,10 +240,6 @@ blockquote {
     margin: 100px auto 0;
     position: relative;
     width: 80px;
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
 }
 
 #single-page-slider {
@@ -255,6 +252,10 @@ blockquote {
     text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
 }
 
+#justthis {
+    display: flex;
+    justify-content: center;
+}
 
 /*-----------------------------------------------------------------------------------*/
 
@@ -267,8 +268,8 @@ blockquote {
     z-index: 2 !important;
 }
 
-#services .media:hover .fa-md {}
-#skills .media:hover .fa-md {}
+/* #services .media:hover .fa-md {}
+#skills .media:hover .fa-md {} */
 
 
 #recent-works {
@@ -1634,7 +1635,7 @@ img.author-box-image {
 .btn-outlined.btn-primary:active {
     color: #FFF;
     background: #00b29e;
-    border-color: #00b29e: ;
+    border-color: #00b29e;
 }
 
 .btn-outlined.btn-success {
